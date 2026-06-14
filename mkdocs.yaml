@@ -5,6 +5,13 @@ repo_name: First-Non-Interesting-Username/Notes
 site_name: Notatki
 site_description: Notatki szkolne
 docs_dir: .
+exclude_docs: |
+  .github/
+  CONTRIBUTING.md
+  LICENSE
+  mkdocs.yaml
+  README.md
+  renovate.json
 theme:
   name: material
   language: pl
