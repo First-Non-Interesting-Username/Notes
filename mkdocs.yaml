@@ -1,0 +1,43 @@
+site_url: https://First-Non-Interesting-Username.github.io/Notes/
+site_author: First-Non-Interesting-Username
+repo_url: https://github.com/First-Non-Interesting-Username/Notes
+repo_name: First-Non-Interesting-Username/Notes
+site_name: Notatki
+site_description: Notatki szkolne
+docs_dir: .
+theme:
+  name: material
+  language: pl
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Tryb ciemny
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Tryb jasny
+
+plugins:
+  - search:
+      lang: pl
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
