@@ -33,7 +33,6 @@ theme:
 
 plugins:
   - search:
-      lang: pl
   - tags
 
 markdown_extensions:
