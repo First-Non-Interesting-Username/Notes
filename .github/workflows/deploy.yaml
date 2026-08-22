@@ -1,4 +1,4 @@
-name: Deploy MkDocs directly to Pages
+name: Deploy Zensical directly to Pages
 
 on:
   push:

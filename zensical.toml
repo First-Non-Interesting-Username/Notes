@@ -1,0 +1,39 @@
+[project]
+site_name = "Notatki"
+site_description = "Notatki szkolne"
+site_author = "First-Non-Interesting-Username"
+site_url = "https://First-Non-Interesting-Username.github.io/Notes/"
+repo_url = "https://github.com/First-Non-Interesting-Username/Notes"
+repo_name = "First-Non-Interesting-Username/Notes"
+docs_dir = "docs"
+extra_javascript = [
+  "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js",
+]
+
+[project.theme]
+variant = "modern"
+language = "pl"
+features = [
+  "navigation.tabs",
+  "navigation.sections",
+  "navigation.top",
+  "search.suggest",
+  "content.code.copy",
+]
+
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "material/brightness-7"
+toggle.name = "Tryb ciemny"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "material/brightness-4"
+toggle.name = "Tryb jasny"
+
+[project.markdown_extensions]
+pymdownx.highlight.anchor_linenums = true
+pymdownx.superfences = {}
+pymdownx.arithmatex.generic = true
+admonition = {}
+toc.permalink = true
