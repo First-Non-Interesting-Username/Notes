@@ -1,10 +1,10 @@
 [project]
 site_name = "Notatki"
 site_description = "Notatki szkolne"
-site_author = "First-Non-Interesting-Username"
-site_url = "https://First-Non-Interesting-Username.github.io/Notes/"
-repo_url = "https://github.com/First-Non-Interesting-Username/Notes"
-repo_name = "First-Non-Interesting-Username/Notes"
+site_author = "first-uninteresting-username"
+site_url = "https://first-uninteresting-username.github.io/Notes/"
+repo_url = "https://github.com/first-uninteresting-username/Notes"
+repo_name = "first-uninteresting-username/Notes"
 docs_dir = "docs"
 extra_javascript = [
   "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js",
